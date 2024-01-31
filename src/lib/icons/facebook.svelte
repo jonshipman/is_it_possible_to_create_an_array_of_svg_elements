@@ -1,6 +1,7 @@
 <script lang="ts">
 	let className = '';
 
+	// You can just expand $$props, (e.g. {...$$props}) but this does not lead to a self-documenting codebase.
 	export { className as class };
 </script>
 
